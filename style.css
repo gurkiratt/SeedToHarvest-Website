@@ -1,0 +1,131 @@
+body{
+    background-color: #60554F;
+    background-image: url("./images/opacitybg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*------------------------------------------------*/
+.nav { 
+    text-align: center;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.btn {
+    font-size: 1.4rem;
+    color: #60554F;
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Arsenal', sans-serif;
+    padding: 5px;    
+    text-decoration:underline;
+}
+/*------------------------------------------------*/
+.intro{
+    margin: 100px;
+    background: rgba(255, 255, 255, 0.5);   
+    border-radius: 4%; 
+}
+.heading-intro{
+    color:#60554F;
+    margin:50px 50px 30px 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.7rem;
+    letter-spacing: 2.3px;
+}
+.img-intro{
+    float:left;
+    margin: 0px 50px 5px 50px;
+    opacity: 0.7;
+    
+}
+
+.text-intro{
+    margin:30px 50px 50px 50px;
+    font-size: 1.3rem;
+    color:#60554F;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+}
+
+/*------------------------------------------------*/
+.first-container{    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+div .first p{
+    margin: 30px;
+    color:#60554F;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;    
+}
+.change{
+    font-size: 5.75rem;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1.5px;
+}
+.third, .fourth p{
+    font-size: 1.4rem;
+    color:#60554F;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+}
+/*------------------------------------------------*/ 
+.second-container{
+    margin: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4%;
+}
+.heading-p2{
+    color:#60554F;
+    margin:50px 50px 30px 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.7rem;
+    letter-spacing: 2.3px;
+}
+
+.text-p2{
+    margin:30px 50px 50px 50px;
+    font-size: 1.3rem;
+    color:#60554F;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+}
+/*------------------------------------------------*/
+.third-container{
+    margin: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4%;
+}
+.heading-p3{
+    color:#60554F;
+    margin:50px 50px 30px 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.7rem;
+    letter-spacing: 2.3px;
+}
+.img-p3{
+    float:right;
+    margin: 0px 50px 5px 50px;
+    opacity: 0.6;
+    
+}
+.text-p3{
+    margin:30px 50px 50px 50px;
+    font-size: 1.3rem;
+    color:#60554F;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: bold;
+}
